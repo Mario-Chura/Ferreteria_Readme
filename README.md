@@ -27,12 +27,12 @@
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">Progamación Web 2</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Ferreteria Online - APIRest</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Proyecto Web - Ferreteria Online</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>07</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<td>NÚMERO DE PRÁCTICA:</td><td>08</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
-<td>FECHA DE PRESENTACIÓN:</td><td>9/08/2022</td><td>HORA DE PRESENTACIÓN: 11:55 am</td><td colspan="3"></td>
+<td>FECHA DE PRESENTACIÓN:</td><td>23/08/2022</td><td>HORA DE PRESENTACIÓN: 12:00 pm</td><td colspan="3"></td>
 </tr>
 <tr><td colspan="3">INTEGRANTE(s):
 <ul>
@@ -68,15 +68,37 @@
 [![Java][Java]][java-site]
 
 ##  Tipo de Sistema
-    Se trata de una aplicación web construida con el framework Django 4, que permita la inscripción de los alumnos en los horarios de laboratorios establecidos cada inicio de semestre.
+
+Se trata de una aplicación web construida con el framework Django 4, que permita la inscripción de los alumnos en los horarios de laboratorios establecidos cada inicio de semestre.
 
 ##  Requisitos del sistema
-    El sistema debe satisfacer los siguientes requisitos funcionales y no funcionales:
+   El sistema debe satisfacer los siguientes requisitos funcionales y no funcionales:
 
-    - RQ01 : El sistema debe estar disponible en Internet a traves de una URL.
-    - RQ02 : El sistema debe permitir el inicio/cierre de sesión.
-    - RQ03 : El sistema debe permitir gestionar el año académico, cursos, profesores y las asignaciones de carga académica.
-    -   ...
+   - RQ01 : El sistema debe estar disponible en Internet a traves de una URL.
+   - RQ02 : El sistema debe permitir el inicio/cierre de sesión.
+   - RQ03 : El sistema debe permitir gestionar el año académico, cursos, profesores y las asignaciones de carga académica.
+   - RQ1: La aplicación web permitirá al usuario iniciar sesión con su cuenta de google.
+   - RQ2: La aplicación web emitirá un correo electrónico cuando se creen cuentas para validar el email.
+   - RQ3: La aplicación web deberá generar en pdf el pedido realizado enviando una copia al emisor y receptor de la operación.
+   - RQ4: La aplicación web tendrá un carrito de compras para todos los productos que el cliente desee comprar. 
+   - RQ5: La aplicación web tendrá un apartado de pedidos a domicilio para materiales de construcción que se requieran en obra.
+   - RQ6: La aplicación podría generar códigos de barras. 
+   - RQ7: Se establecerá contacto con los proveedores desde la página web.
+   - RQ8: La aplicación web contará con un código de verificación para verificar el envío exitoso de su pedido.
+   - RQ9: Se podrá anular la compra después de los primeros 15 min de confirmar.
+   - RQ10: Promociones y descuentos a los usuarios serán notificadas por email.
+   - RQ11: Las acciones realizadas por día como la actualización de inventario, serán notificadas y resumidas vía email.
+   - RQ12: Habrá una categoría para usuarios Premium que tendrán beneficios de descuentos y accesos a artículos reservados “Premium” 
+   - RQ13: La aplicación podrá modificar, eliminar, crear y leer datos con facilidad.
+   - RQ14: La aplicación web contará con una base de datos correspondiente para generar ventas, almacenaje y usuarios.
+   - RQ15: Tendrá la opción de un chat bot o un asistente en vivo para hacer consultas en la misma página y también tendrá una opción para redirigir a un chat de WhatsApp.
+   - RQ16: La aplicación web tendrá un apartado de soporte para reportar reclamos, sugerencias, o para solicitar alguna recomendación, ante los productos.
+   - RQ17: En el carrito de compras se permitirá comparar productos, y sus atributos como peso, precio, descuentos, ventajas y precauciones.
+   - RQ18: Los productos tendrán categorías para facilitar la compra de los clientes.
+   - RQ19: Se incluirá un buscador de productos.
+   - RQ20: La aplicación web tendrá un diseño responsivo para que se pueda adaptar a pantallas de diferentes tamaños con un solo sitio web.
+
+   
 
 ##  Modelo de datos
     El modelo de datos esta conformado por las siguientes entidades.
