@@ -181,15 +181,24 @@ Github del proyecto:
 
 URL en Heroku:
 
-URL Playlist YouTube.
-Producción de un PlayList en Youtube explicando cada una de los requerimientos.
-Video 01 - Sistema - Requisitos.
-Video 02 - Modelo de datos - DD - DER.
-etc…
+URL Playlist YouTube: https://youtube.com/playlist?list=PLY9ZwtuLx1XO4YZvTq0LFWy8ehwF46HL-
+El PlayList en YouTube está formado por la explicación de los siguientes requerimientos:
+Video 01 - Tipo de sistema y Requisitos. URL: 
+Video 02 - Modelo de datos - DD - DER. URL: 
+Video 03 - Administración con Django. URL:
+Video 04 - Plantillas Bootstrap. URL:
+Video 05 - CRUD. URL:
+Video 06 - Servicios REST.
+Video 07 - Realizar Operaciones asíncronas AJAX. URL:
+Video 08 - Investigación: Uso de el componente de Email. URL:
+
 
 
 ## REFERENCIAS
--   
+-   https://www.free-css.com/free-css-templates/page246/freshshop
+-   https://docs.djangoproject.com/en/4.0/intro/tutorial06/
+-   https://www.youtube.com/watch?v=iQN0z6MDrEY&ab_channel=pildorasinformaticas
+-   https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Home_page
 
 #
 
