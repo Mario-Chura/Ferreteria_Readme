@@ -67,11 +67,11 @@
 [![Vim][Vim]][vim-site]
 [![Java][Java]][java-site]
 
-##  Tipo de Sistema
+##  ***___1. Tipo de Sistema___***
 
 Se trata de una aplicación web construida con el framework Django 4, que permita la inscripción de los alumnos en los horarios de laboratorios establecidos cada inicio de semestre.
 
-##  Requisitos del sistema
+##  Requisitos del sistema___***
    El sistema debe satisfacer los siguientes requisitos funcionales y no funcionales:
 
    - RQ01 : El sistema debe estar disponible en Internet a traves de una URL.
@@ -100,7 +100,7 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
 
    
 
-##  Modelo de datos
+##  ***___2. Modelo de datos___***
     El modelo de datos esta conformado por las siguientes entidades.
 
     -   Curso : En esta entidad se almacena la información de los cursos o asignaturas que se imparten en una Escuela Profesional. Ejemplo: Programación Web 2, III semestre, 02 horas teóricas, 04 horas de laboratorio, etc..
@@ -131,11 +131,11 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
 ##  Diagrama Entidad-Relación
     ...
 
-##  Administración con Django
+##  ***___3. Administración con Django___***
     Se muestran los pasos realizados para crear el Proyecto, la aplicación, creacion de modelos, migraciones y habilitación del panel de administración en Django.
     ...
 
-##  Plantillas Bootstrap
+##  ***___4. Plantillas Bootstrap___***
     Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
     Demo online:
@@ -144,7 +144,7 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
     Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
     ...
 
-##  CRUD - Core Business - Clientes finales
+##  ***___5. CRUD - Core Business - Clientes finales___***
     El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
     1. El alumno inicia sesión.
     2. El alumno selecciona el o los cursos donde desea realizar una inscripción.
@@ -157,7 +157,7 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
     A continuación se muestran las actividades realizadas para su construcción:
     ...
 
-##  Servicios mediante una API RESTful
+##  ***___6. Servicios mediante una API RESTful___***
     Se ha creado una aplicación que pondra a disposición cierta información para ser consumida por otros clientes HTTP.
     1. GET : Con el método get se devolverá la lista de cursos, grupos y horarios establecidos para que el alumno sobre todo vea esta información en cualquier otro medio. En formato JSON. 
     2. POST : Con este método se enviara el código del alumno y se devolvera sus inscripciones. En formato JSON.
@@ -166,31 +166,31 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
     Se especifican los pasos para crear el servicio RestFul
     ...
 
-##  Operaciones asíncronas AJAX
+##  ***___7. Operaciones asíncronas AJAX___***
     Se propone el uso de AJAX para realizar la asignación de carga académica a los docentes que estan registrados. Esta operación la realizará el usuario operador encargado por el DAISI.
     Se muestran los pasos necesarios a realizar.
     ....
 
-##  Investigación: Email, Upload.
-    - Email: Se utilizará la funcionalidad del uso de envío de correos electrónicos cuando el proceso de inscripciones culmine y al profesor le llegue la lista de alumnos inscritos en sus grupos a cargo.
-    - Upload: Se utilizará esta funcionalidad para subír, archivos CSV para importar y exportar información en el sistema.
+## ***___8. Investigación:___***
+   - Email: Se utilizará la funcionalidad del uso de envío de correos electrónicos cuando el proceso de inscripciones culmine y al profesor le llegue la lista de alumnos inscritos en sus grupos a cargo.
+   - Upload: Se utilizará esta funcionalidad para subír, archivos CSV para importar y exportar información en el sistema.
     Se muestran los pasos realizados para su funcionamiento correcto.
     ...
 
 Github del proyecto:
 
-URL en Heroku:
+URL en Heroku:https://ferreteriamisti.herokuapp.com/
 
 URL Playlist YouTube: https://youtube.com/playlist?list=PLY9ZwtuLx1XO4YZvTq0LFWy8ehwF46HL-
 El PlayList en YouTube está formado por la explicación de los siguientes requerimientos:
-Video 01 - Tipo de sistema y Requisitos. URL: 
-Video 02 - Modelo de datos - DD - DER. URL: 
-Video 03 - Administración con Django. URL:
-Video 04 - Plantillas Bootstrap. URL:
-Video 05 - CRUD. URL:
-Video 06 - Servicios REST.
-Video 07 - Realizar Operaciones asíncronas AJAX. URL:
-Video 08 - Investigación: Uso de el componente de Email. URL:
+- Video 01 - Tipo de sistema y Requisitos. URL: 
+- Video 02 - Modelo de datos - DD - DER. URL: 
+- Video 03 - Administración con Django. URL:
+- Video 04 - Plantillas Bootstrap. URL:
+- Video 05 - CRUD. URL:
+- Video 06 - Servicios REST.
+- Video 07 - Realizar Operaciones asíncronas AJAX. URL:
+- Video 08 - Investigación: Uso de el componente de Email. URL:
 
 
 
