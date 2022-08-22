@@ -101,16 +101,16 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
    
 
 ##  ***___2. Modelo de datos___***
-    El modelo de datos esta conformado por las siguientes entidades.
+   El modelo de datos esta conformado por las siguientes entidades.
 
-    -   Curso : En esta entidad se almacena la información de los cursos o asignaturas que se imparten en una Escuela Profesional. Ejemplo: Programación Web 2, III semestre, 02 horas teóricas, 04 horas de laboratorio, etc..
-    -   Profesor : En esta entidad se almacena los datos de los profesores que se responsabilizan del avance académico en la enseñanza de los temas planificados en cada curso. Ejemplo: Richart Escobedo, rescobedoq@unsa.edu.pe, Magister, etc.
+   -   Curso : En esta entidad se almacena la información de los cursos o asignaturas que se imparten en una Escuela Profesional. Ejemplo: Programación Web 2, III semestre, 02 horas teóricas, 04 horas de laboratorio, etc..
+   -   Profesor : En esta entidad se almacena los datos de los profesores que se responsabilizan del avance académico en la enseñanza de los temas planificados en cada curso. Ejemplo: Richart Escobedo, rescobedoq@unsa.edu.pe, Magister, etc.
 
     ...
 
 ##  Diccionario de datos
 
-    En la construcción de software y en el diccionario de datos sobre todo se recomienda y se utilizará el idioma inglés para especificar objetos, atributos, etc.
+   En la construcción de software y en el diccionario de datos sobre todo se recomienda y se utilizará el idioma inglés para especificar objetos, atributos, etc.
 
 | Course | | | | | |
 | -- | -- | -- | -- | -- | -- |
@@ -132,20 +132,20 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
     ...
 
 ##  ***___3. Administración con Django___***
-    Se muestran los pasos realizados para crear el Proyecto, la aplicación, creacion de modelos, migraciones y habilitación del panel de administración en Django.
+   Se muestran los pasos realizados para crear el Proyecto, la aplicación, creacion de modelos, migraciones y habilitación del panel de administración en Django.
     ...
 
 ##  ***___4. Plantillas Bootstrap___***
-    Se seleccionó la siguiente plantilla para el usuario final (No administrador).
+   Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
-    Demo online:
+   Demo online:
     URL: https://www.free-css.com/free-css-templates/page246/freshshop
 
-    Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
+   Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
     ...
 
 ##  ***___5. CRUD - Core Business - Clientes finales___***
-    El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
+   El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
     1. El alumno inicia sesión.
     2. El alumno selecciona el o los cursos donde desea realizar una inscripción.
     3. El alumno selecciona el grupo de laboatorio donde desea incribirse.
@@ -153,22 +153,22 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
     5. El alumno puede ver el consolidado de sus inscripciones.
     6. El alumno cierra sesión.
 
-    Todas y cada una de estas pantallas debe funcionar en la plantilla bootstrap.
+   Todas y cada una de estas pantallas debe funcionar en la plantilla bootstrap.
     A continuación se muestran las actividades realizadas para su construcción:
     ...
 
 ##  ***___6. Servicios mediante una API RESTful___***
-    Se ha creado una aplicación que pondra a disposición cierta información para ser consumida por otros clientes HTTP.
+   Se ha creado una aplicación que pondra a disposición cierta información para ser consumida por otros clientes HTTP.
     1. GET : Con el método get se devolverá la lista de cursos, grupos y horarios establecidos para que el alumno sobre todo vea esta información en cualquier otro medio. En formato JSON. 
     2. POST : Con este método se enviara el código del alumno y se devolvera sus inscripciones. En formato JSON.
     
-    Ejemplo: Prueba en Página web, aplicación móvil, PDF, etc.
+   Ejemplo: Prueba en Página web, aplicación móvil, PDF, etc.
     Se especifican los pasos para crear el servicio RestFul
     ...
 
 ##  ***___7. Operaciones asíncronas AJAX___***
-    Se propone el uso de AJAX para realizar la asignación de carga académica a los docentes que estan registrados. Esta operación la realizará el usuario operador encargado por el DAISI.
-    Se muestran los pasos necesarios a realizar.
+   Se propone el uso de AJAX para realizar la asignación de carga académica a los docentes que estan registrados. Esta operación la realizará el usuario operador encargado por el DAISI.
+   Se muestran los pasos necesarios a realizar.
     ....
 
 ## ***___8. Investigación:___***
