@@ -139,7 +139,7 @@ Se trata de una aplicación web construida con el framework Django 4, que permit
     Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
     Demo online:
-    URL: ...
+    URL: https://www.free-css.com/free-css-templates/page246/freshshop
 
     Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
     ...
