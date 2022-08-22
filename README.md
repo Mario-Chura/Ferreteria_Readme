@@ -71,7 +71,7 @@
 
 Se trata de una aplicación web construida con el framework Django 4, que permita la inscripción de los alumnos en los horarios de laboratorios establecidos cada inicio de semestre.
 
-##  Requisitos del sistema___***
+##  Requisitos del sistema
    El sistema debe satisfacer los siguientes requisitos funcionales y no funcionales:
 
    - RQ01 : El sistema debe estar disponible en Internet a traves de una URL.
